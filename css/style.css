@@ -504,23 +504,6 @@ body{
 	padding: 25px 40px;
 }
 
-h2{
-	position: relative;
-	padding: 0 0 10px;
-	margin-bottom: 10px;
-}
-
-h2:after{
-	content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
-    background-color: #2ecc71;
-}
 
 .field{
 	width: 100%;
@@ -541,21 +524,7 @@ textarea{
 	min-height: 150px;
 }
 
-.btn{
-	width: 100%;
-	padding: 0.5rem 1rem;
-	background-color: #2ecc71;
-	color: #fff;
-	font-size: 1.1rem;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	transition: .3s;
-}
 
-.btn:hover{
-    background-color: #27ae60;
-}
 
 .field:focus{
     border: 2px solid rgba(30,85,250,0.47);
